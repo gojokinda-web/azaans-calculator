@@ -1,0 +1,27 @@
+
+body{background:linear-gradient(135deg,#1a0033,#000820);color:#fff;font-family:Poppins,Arial;margin:0;padding:0;}
+.card{max-width:420px;margin:60px auto;padding:25px;background:rgba(255,255,255,0.08);backdrop-filter:blur(10px);border-radius:18px;box-shadow:0 0 25px rgba(0,0,0,0.4);}
+h1,h2{text-align:center;margin-bottom:20px;}
+.btn-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;}
+.btn{padding:16px;border:none;border-radius:10px;font-size:18px;background:#222;cursor:pointer;transition:.15s;}
+.btn:hover{background:#333;transform:scale(1.05);}
+.display{background:#000;padding:20px;border-radius:12px;font-size:24px;margin-bottom:15px;text-align:right;}
+a{color:#9cf;text-decoration:none;display:block;text-align:center;margin-top:20px;}
+.big-btn{padding:20px;background:#4c00ff;border-radius:12px;color:white;font-size:20px;text-align:center;margin:10px 0;display:block;transition:.2s;}
+.big-btn:hover{background:#5c10ff;transform:scale(1.05);}
+.footer {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 14px;
+  opacity: 0.7;
+  background: rgba(255,255,255,0.1);
+  padding: 6px 12px;
+  border-radius: 10px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.footer span {
+  color: #9cf;
+  font-weight: bold;
+}
